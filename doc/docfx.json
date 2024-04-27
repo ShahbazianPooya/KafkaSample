@@ -1,0 +1,33 @@
+{
+  "metadata": [
+    {
+      "src": [
+        {
+          "files": [
+            "src/**/*.cs"
+          ],
+          "cwd": ".."
+        }
+      ],
+      "dest": "api"
+    }
+    
+  ],
+  "build": {
+    "content": [
+      {
+        "files": [
+          "api/**.yml",
+          "*.md"
+        ]
+      }
+    ],
+    "globalMetadata": {
+      "_appTitle": "Confluent.Kafka",
+      "_disableContribution": true,
+      "_disableFooter": true
+    },
+    "dest": "_site",
+    "template": ["default", "template"]
+  }
+}
