@@ -1,8 +1,0 @@
-syntax = "proto3";
-
-package confluent.kafka.examples.protobuf;
-
-message PersonName {
-    string FirstName = 1;
-    string LastName = 2;
-}

@@ -1,7 +1,0 @@
-syntax = "proto3";
-
-message User {
-    string Name = 1;
-    int64 FavoriteNumber = 2;
-    string FavoriteColor = 3;
-}
